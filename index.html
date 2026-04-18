@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="container_header">
+      <h2 class="h2_title">Inmobiliaria</h2>
+      <nav class="navigation">
+        <ul class="nav_list">
+          <li><a class="nav_item" href="#home">Inicio</a></li>
+          <li><a class="nav_item" href="#philosophy">Sobre nosotros</a></li>
+          <li><a class="nav_item" href="#properties">Propiedades</a></li>
+          <li><a class="nav_item" href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+      <button class="header_btn">Private Waitlist</button>
+    </header>
+    <header class="header_movile">
+    <input id="check" type="checkbox" />
+    <label class="hamburger" for="check">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </label>
+    <nav class="nav_movile">
+        <ul class="nav_list">
+            <li><a class="nav_item" href="#home">Inicio</a></li>
+            <li><a class="nav_item" href="#philosophy">Sobre nosotros</a></li>
+            <li><a class="nav_item" href="#properties">Propiedades</a></li>
+            <li><a class="nav_item" href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+    <main class="main_container">
+      <div class="background_hero" id="home">
+        <div class="container_hero_title">
+          <h1 class="hero_title">Encontrá tu hogar <br />ideal</h1>
+          <p class="p_hero">
+            Te ayudamos a comprar, vender e invertir en las <br />
+            mejores propiedades con un enfoque editorial y <br />exclusivo
+          </p>
+          <div class="separator_hero_btns">
+            <a class="properties_btn" href="#properties">Ver Propiedades</a>
+            <a class="contact_btn" href="#contact">Contactanos</a>
+          </div>
+        </div>
+      </div>
+      <section class="section_property_services">
+        <ul class="property_services">
+          <li class="service_item">
+            <ion-icon class="icon_service" name="bag-outline"></ion-icon>
+            <h3 class="h3_services">Comprar</h3>
+            <p class="p_services">
+              Encontramos la pieza perfecta para tu <br />estilo de vida.
+            </p>
+          </li>
+          <li class="service_item">
+            <ion-icon class="icon_service" name="pricetag-outline"></ion-icon>
+            <h3 class="h3_services">Vender</h3>
+            <p class="p_services">
+              Estrategia de marketing editorial para tu <br />propiedad.
+            </p>
+          </li>
+          <li class="service_item">
+            <ion-icon class="icon_service" name="key-outline"></ion-icon>
+            <h3 class="h3_services">Alquilar</h3>
+            <p class="p_services">
+              Gestión de alquileres premium y <br />temporales.
+            </p>
+          </li>
+          <li class="service_item">
+            <ion-icon class="icon_service" name="analytics-outline"></ion-icon>
+            <h3 class="h3_services">Inversiones</h3>
+            <p class="p_services">
+              Asesoramiento basado en datos y <br />proyecciones.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="property_list_sections" id="properties">
+        <header class="property_header">
+          <h2 class="h2_property">Colección Destacada</h2>
+          <p class="text_property">
+            Propiedades seleccionadas por su arquitectura, ubicación y
+            <br />potencial de inversión.
+          </p>
+        </header>
+        <div class="container_properties_card">
+          <article class="card_info slide-left">
+            <div class="zoom">
+              <span class="card_tag">Apartamento</span>
+              <img
+                class="img_item"
+                src="assets/theglasspavilion.webp"
+                alt="The Glass Pavilion"
+              />
+            </div>
+            <div class="divider">
+              <div class="card_image zoom">
+                <h3 class="h3_services">The Glass Pavilion</h3>
+                <p class="text">
+                  <ion-icon name="pin-outline"></ion-icon> Malibu, California
+                </p>
+              </div>
+              <div class="card_price">
+                <span class="price">$4,250,000</span>
+                <a class="details" href="">Ver detalles</a>
+              </div>
+            </div>
+          </article>
+          <article class="card_loft slide-right">
+            <div class="card_image">
+              <span class="card_tag">Residencial</span>
+              <img
+                class="img_item"
+                src="assets/etherealloft.webp"
+                alt="Ethereal Loft"
+              />
+            </div>
+            <div class="divider">
+              <div>
+                <h3 class="h3_services">Ethereal Loft</h3>
+                <p class="text">
+                  <ion-icon name="pin-outline"></ion-icon> Soho, New York
+                </p>
+              </div>
+              <div class="card_price">
+                <span class="price">$1,800,000</span>
+                <a class="details" href="">Ver detalles</a>
+              </div>
+            </div>
+          </article>
+          <article class="slide-left">
+            <div class="zoom">
+              <img class="img_item" src="assets/hero.webp" alt="" />
+            </div>
+            <div>
+              <h3 class="h3_services">Marble Haven</h3>
+              <p class="text">
+                <ion-icon name="pin-outline"></ion-icon> Bel Air, CA •
+                $2,900,000
+              </p>
+            </div>
+          </article>
+          <article class="slide-left">
+            <div class="zoom">
+              <img class="img_item" src="assets/zengarden.webp" alt="" />
+            </div>
+            <div>
+              <h3 class="h3_services">Zen Gardens</h3>
+              <p class="text">
+                <ion-icon name="pin-outline"></ion-icon> Palo Alto, CA •
+                $3,150,000
+              </p>
+            </div>
+          </article>
+          <article class="slide-right">
+            <div class="zoom">
+              <img class="img_item" src="assets/cloudsuits.webp" alt="" />
+            </div>
+            <div class="img_card zoom">
+              <h3 class="h3_services">Cloud Suites</h3>
+              <p class="text">
+                <ion-icon name="pin-outline"></ion-icon> Aspen, CO • $5,400,000
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="philosophy_container" id="philosophy">
+        <article class="philosophy_divider">
+          <img
+            class="man_img slide-left"
+            src="assets/bussinesman.webp"
+            alt=""
+          />
+          <div class="phi_info slide-right">
+            <span class="our_philosophy">Nuestra Filosofía</span>
+            <h1 class="h3_services">
+              Excelencia en cada <br />
+              detalle arquitectónico.
+            </h1>
+            <p class="phi_text">
+              En Inmobiliaria, no simplemente vendemos casas; creamos
+              <br />
+              experiencias de vida. Con más de 15 años de trayectoria en el
+              mercado <br />
+              de lujo, combinamos la precisión analítica con un ojo estético
+              para <br />
+              propiedades únicas.
+            </p>
+            <div class="phi_divider">
+              <ion-icon
+                class="icon_service"
+                name="thumbs-up-outline"
+              ></ion-icon>
+              <div>
+                <strong>Confianza Comprobada</strong>
+                <p class="text">
+                  Operaciones transparentes y éticas que priorizan tu
+                  patrimonio.
+                </p>
+              </div>
+            </div>
+            <div class="phi_divider">
+              <ion-icon class="icon_service" name="diamond-outline"></ion-icon>
+              <div>
+                <strong>Red Exclusiva</strong>
+                <p class="text">
+                  Acceso a propiedades "off-market" y preventas privadas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="clients_container">
+        <div class="clients_divider">
+            <header class="header_clients">
+          <h1 class="h3_services">Voces de confianza</h1>
+        </header>
+        <div class="clients_list">
+        <article class="client_card slide-left">
+            <div class="stars">★★★★★</div>
+            <p class="text">
+              "La atención al detalle y el entendimiento <br />
+              estético del equipo superó todas mis <br />
+              expectativas. Encontraron una joya que <br />
+              no estaba en el mercado público."
+            </p>
+            <div class="client_name">
+              <img class="client_img" src="assets/alegandro.webp" alt="" />
+              <div class="job_name">
+                <strong>Alejandro V.</strong>
+              <span class="text">Inversionista</span>
+              </div>
+            </div>
+        </article>
+        <article class="client_card slide-left">
+            <div class="stars">★★★★★</div>
+            <p class="text">
+              "Vender mi propiedad fue un proceso <br> fluido y elegante.
+               Las fotografías editoriales <br> realmente capturaron la <br>
+               esencia de mi hogar."
+            </p>
+            <div class="client_name">
+              <img class="client_img" src="assets/alegandro.webp" alt="" />
+              <div class="job_name">
+                <strong>Lionel M.</strong>
+              <span class="text">Propietario</span>
+              </div>
+            </div>    
+        </article>
+        <article class="client_card slide-left">
+            <div class="stars">★★★★★</div>
+            <p class="text">
+             "Profesionalismo de clase mundial. Nos <br>
+              guiaron en nuestra primera inversión <br>
+              internacional con total seguridad y <br>
+              claridad."
+            </p>
+            <div class="client_name">
+              <img class="client_img" src="assets/alegandro.webp" alt="" />
+              <div class="job_name">
+                <strong>Julian M.</strong>
+              <span class="text">CEO de TechVentures</span>
+              </div>
+            </div>
+        </article>   
+      </div>
+    </section>
+      <section class="contact_section" id="contact">
+        <div class="contact_info_container">
+          <article class="contact_info">
+          <h1 class="h1_contact">Iniciemos una conversación</h1>
+          <p class="phi_text">
+            ¿Interesado en una propiedad o en vender la tuya? <br>
+            Nuestro equipo está listo para brindarte un asesoramiento <br>
+            personalizado.
+          </p>
+            <div class="phi_divider">
+              <ion-icon class="icon_service" name="call-outline"></ion-icon>
+              <div>
+                <span class="text">Llámanos</span>
+                <p>
+                  +1 (234) 567 890
+                </p>
+              </div>
+            </div>
+            <div class="phi_divider">
+              <ion-icon class="icon_service" name="mail-outline"></ion-icon>
+              <div>
+                <span class="text">Email</span>
+                <p>
+                  info@editorialestate.com
+                </p>
+              </div>
+            </div>
+            <div class="phi_divider">
+              <ion-icon class="icon_service" name="location-outline"></ion-icon>
+              <div>
+                <span class="text">Oficina</span>
+                <p>
+                  Avenida Alvear 1800, Buenos Aires
+                </p>
+              </div>
+            </div>
+              <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.616526342417!2d-58.39056293653961!3d-34.588568416807405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa4a4b4c67b%3A0xd5585e1d55364c1f!2sAv.%20Alvear%201800%2C%20C1014%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1776493980138!5m2!1ses!2sar"width="100%" height="300" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </article>
+        <aside class="aside_form">
+          <form class="contact_form" action="">
+            <label for="nombre">Nombre Completo</label>
+            <input class="input_form" type="text" name="nombre" placeholder="Juan Perez">
+            <label for="email">Email Corporativo</label>
+            <input class="input_form" type="email" name="email" placeholder="tu@email.com">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="input_text" name="mensaje" id=""></textarea>
+            <button class="btn_form">Enviar Solicitud</button>
+          </form>
+        </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="container_footer">
+  
+  <div class="footer-top">
+    <p class="footer-brand">
+      Inmobiliaria
+    </p>
+
+    <ul class="footer-links">
+      <li><span class="footer-link">Privacy Policy</span></li>
+      <li><span class="footer-link">Terms of Service</span></li>
+      <li><span class="footer-link">Licenses</span></li>
+      <li><span class="footer-link">Accessibility</span></li>
+    </ul>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copy">
+      © 2026 Inmobiliaria. Curated Precision.
+    </p>
+
+    <span class="footer-credit">
+      Landing de Ejemplo | Desarrollada por 
+      <a target="_blank" href="https://www.linkedin.com/in/luciano-gahn-benitez-b65814250/">
+        Luciano Gahn
+      </a>
+    </span>
+  </div>
+
+</footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
