@@ -480,6 +480,7 @@ body {
     font-size: 42px;
 }
 .map {
+    width: 80%;
     border-radius: 12px;
     overflow: hidden; /* CLAVE */
 }
